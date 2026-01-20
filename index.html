@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Movie Theater Website</title>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <section>
+   <header>
+        <h1 class="marquee">✨ Khalida's 3D CINEMA ✨</h1>
+        <p>You can watch amazing 3D CINEMA on the Khalida Ghanizada's Movie Theater.</p>
+        <p>3D CINEMA's raising the inception feature for those who loves fiction.</p>
+    </header>
+    </section>
+    <!-- Main Section -->
+    <main>
+        <section class="theater-screen">
+            <div class="curtain-left"></div>
+            <div class="screen-container">
+                <video controls poster="https://images.unsplash.com">
+                    <source src="./media/trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="curtain-right"></div>
+        </section>
+        <section>
+            <h2>🎞️Welcome to My personal CINEMA🎞️</h2>  
+            <p>Personal cinema is an invitation to experience film in a curated, private, or deeply individual space. Depending on the context. </p>
+            <p>This description can be tailored to a home theater, a film-themed blog, or a creative writing project.</p>
+        </section>          
+
+        <section class="controls">
+            <button onclick="document.querySelector('video').play()">▶️ Play</button>
+            <button onclick="document.querySelector('video').load()">🔄 Play Again</button>
+            <button class="rate-btn">⭐ Rate Movie</button>
+        </section>
+    </main>
+    <!-- Footer Section -->
+     <section>
+    <footer>
+        <p class="para">🍿 Now Showing: AVATAR 🍿</p>
+    </footer>
+    </section>
+</body>
+</html>
